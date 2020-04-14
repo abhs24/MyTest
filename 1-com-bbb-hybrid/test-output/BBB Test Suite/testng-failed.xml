@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [BBB Test Suite]">
+  <test name="BBB Regression Test(failed)">
+    <classes>
+      <class name="com.bbb.hybrid.testcases.CreateAccountWithAlreadyRegisteredUserTC">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="CreateAccountWithAlreadyRegisteredUserTestCase"/>
+        </methods>
+      </class> <!-- com.bbb.hybrid.testcases.CreateAccountWithAlreadyRegisteredUserTC -->
+      <class name="com.bbb.hybrid.testcases.CreateAccountTC">
+        <methods>
+          <include name="CreateAccountTestCase"/>
+          <include name="closebrowser"/>
+        </methods>
+      </class> <!-- com.bbb.hybrid.testcases.CreateAccountTC -->
+    </classes>
+  </test> <!-- BBB Regression Test(failed) -->
+</suite> <!-- Failed suite [BBB Test Suite] -->

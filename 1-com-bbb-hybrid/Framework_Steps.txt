@@ -1,0 +1,31 @@
+1. create project
+
+2. create packages
+com.bbb.hybrid.testcases
+
+
+3. testng.xml - batch execution
+
+4. onboard extentreports
+-create util package
+-create reports folder at project level
+
+5. call this report from all the testcases
+
+
+6. create basetest class and extend all ur testcase to this class so that they can reuse the existing methods.
+com.bbb.hybrid.basetest
+
+
+7. create properties file, define loadconfig method in basemethod. replace all hardcoded urls, browsertype, locators with values from config.properties keys
+
+8. introduce error handling wherever required
+
+
+9. data driver your testcases 
+
+
+10. complete your testscripts, add validation and screeshots whenever u want
+
+
+11. verify reports
